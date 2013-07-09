@@ -1,0 +1,541 @@
+    1  git status
+    4  git status
+    5  git commit -a -m"gitent gone??"
+    6  git status
+   12  git status push
+   14  git push dropbox master
+   15  du -h ~/Public/Dropbox/git
+   16  ls -al ~/Public/Dropbox/git/local/objects/pack/
+   26  git push dropbox master
+   27  pushd git/Open\ University/
+   28  git push dropbox master
+   29  git status
+   30  ls .gitignore
+   31  locate .gitignore
+   32  more ~/.gitignore
+   33  more ~/git/.gitignore 
+   34  find . -name ".gitignore" -print
+   35  git status
+   37  git status
+   38  cat >> .gitignore
+   39  git status
+   40  cp .gitignore ../MST209-2013
+   41  git status
+   45  more .gitignore 
+   47  cat >> .gitignore
+   48  git status
+   49  cp .gitignore ../MST209-2012
+   50  cp .gitignore ../MST209-2012J
+   51  git status
+   52  more .gitignore 
+   55  find . -name ".gitignore"
+   56  git status
+   57  more MST209-2013/.gitignore 
+   58  more .gitignore
+   60  git status
+   63  git status
+   64  git rm --cached Tutorials/*.pdf
+   65  git status
+   68  git status
+   69  git commit -am"Removed .pdfs; minor edits"
+   70  git status
+   71  git add MST209-2012/.gitignore 
+   72  git add MST209-2013/.gitignore 
+   74  git add TMA03_2007_2012.*
+   75  git status
+   76  git add ../MST209-2012J 
+   77  git commit -am"Added coupla files"
+   80  git push dropbox master
+   81  git ls-files --deleted
+   83  du -h ~/Public/Dropbox/git/
+   84  git gc --aggressive --prune=now
+   85  du -h ~/Public/Dropbox/git/
+   86  git push dropbox master
+   87  git push --force dropbox master
+   88  chmod +x ~/bin/git_biggest 
+   89  which git_biggest
+   90  git_biggest
+   91  ls .git
+   93  pushd git
+   94  git_biggest
+   95  git status
+   98  git status
+  100  cp README README-git-at-start
+  101  git add
+  102  git add README-git-at-start 
+  104  git status
+  109  git commit -am"Munged READMEs"
+  110  git push dropbox master
+  111  pushd ~/Public/Dropbox/git
+  117  git gc --aggressive --prune=now
+  297  cd /Users/matthew/git_dat_files/Georg/StreamOpsTest; clear; pwd
+  298  history | grep git
+  299  git status
+  300  git tags
+  301  git tag
+  302  git log
+  303  history | grep git
+  304  git remote show origin
+  305  git remote show master
+  306  git remote show fshar
+  307  git remote show fsharp
+  308  git remote fetch fsharp
+  309  git fetch DictDesign0.1
+  310  git branch
+  311  git branch -a
+  315  git status
+  316  git pull fsharp
+  317  git pull fsharp/DictDesign0.1
+  318  git pull fsharp DictDesign0.1
+  319  git status
+  324  git checkout -t fsharp/DictDesign0.1
+  325  git init
+  326  git checkout -t fsharp/DictDesign0.1
+  327  git checkout -t fsharp
+  328  git checkout -t fsharp -b DictDesign0.1
+  329  git remote show origin
+  330  git remote update
+  331  git remote show origin
+  332  git fetch
+  333  git fetch fsharp
+  338  git branch -v -a
+  339  git fetch
+  340  git fetch fsharp
+  341  git status
+  342  git log
+  344  git remote show origin
+  345  git remote show fsharp
+  347  git remote add origin ~/Public/Dropbox/git_dat/fsharp
+  348  git fetch origin
+  349  git status
+  350  git pull
+  351  git pull origin DictDesign0.1
+  352  git status
+  353  git log
+  355  git remote show origin
+  363  git status
+  371  git status
+  388  rm -rf .git
+  389  git init
+  418  history | grep git | tail -20
+  419  git remote add origin ~/Public/Dropbox/git_dat/fsharp
+  421  git fetch origin
+  422  git pull origin DictDesign0.1
+  428  git pull origin DictDesign0.1
+  431  git fetch origin
+  433  git status
+  444  git reset HEAD
+  445  git status
+  453  git init
+  454  git remote add origin ~/Public/Dropbox/git_dat/fsharp
+  455  git fetch origin
+  457  git status
+  458  history | grep git | tail -20
+  459  git pull origin DictDesign0.1
+  470  git status
+  471  git log
+  526  git status
+  527  git log
+  528  man git push
+  529  git help push
+  530  git branch
+  531  git remotes
+  532  git remote
+  533  git push origin DictDesign0.3
+  534  git branch
+  535  git remote branch
+  536  history | grep "git remote"
+  537  git remote show origin
+  538  git branch -a
+  539  git remote -v
+  540  git status
+  541  git branch DictDesign0.3
+  542  git push origin DictDesign0.3
+  551  git status
+  552  git push origin
+  553  git branch
+  558  git pull
+  559  git pull origin DictDesign0.5
+  560  git branch -a
+  561  git help branch
+  562  git branch --set-upstream-to=origin/DictDesign0.5 master
+  563  git branch -a
+  564  git pull
+  574  git log
+  588  git status
+  589  git commit -a
+  590  git status
+  591  git add ClassifyMain.fs 
+  592  git add JoinMain.fs 
+  593  git add SummarizeMain.fs 
+  594  git commit -m"Added Georg's Classify, Join and Summarize code"
+  595  git status
+  596  git push
+  597  history | grep "git push"
+  598  git push origin DictDesign0.5
+  599  git branch -a
+  600  git remotes
+  601  git remote
+  602  git push DictDesign0.5
+  603  git push -b DictDesign0.5
+  604  git pull
+  605  git branch -a
+  607  git branch -a
+  608  git remote show origin
+  609  git push origin DictDesign0.5
+  610  help git push
+  611  git help push
+  612  git branch -a
+  613  git pull
+  614  git checkout --track origin/DictDesign0.5
+  615  git branch -a
+  619  git checkout origin/DictDesign0.1
+  622  git checkout --track origin/DictDesign0.5
+  623  git checkout origin/DictDesign0.5
+  625  git pull
+  626  git pull origin DictDesign0.5
+  642  ls .gitignore
+  644  ls .gitignore
+  646  ls .gitignore
+  649  ls .gitignore
+  650  more .gitignore 
+  654  more .gitignore 
+  661  git pull origin DictDesign0.5
+  662  git log
+  663  git pull origin DictDesign0.5
+  664  git log
+  665  git branch -a
+  666  history | grep "git checkout"
+  667  git checkout --track origin/DictDesign0.5
+  668  git checkout origin/DictDesign0.5
+  669  git branch -a
+  670  git log
+  671  git pull origin DictDesign0.5
+  672  git branch -a
+  673  git log
+  674  git reflog
+  675  git branch -av
+  676  git pull --rebase origin DictDesign0.5
+  677  git branch -av
+  678  git status
+  679  git status
+  680  history | grep git
+  681  git status
+  682  git fetch
+  683  git branch -av
+  684  git checkout remotes/origin/DictDesign0.5
+  685  git branch -av
+  686  git checkout --track remotes/origin/DictDesign0.5
+  687  git checkout remotes/origin/DictDesign0.5
+  688  git branch -av
+  689  git branch -u /remotes/origin/DictDesign0.5
+  691  git branch -av
+  692  git branch -u /remotes/origin/DictDesign0.5
+  693  git fetch origin
+  694  git branch -av
+  701  ls ../git_dat_files/
+  702  ls ../git_dat_files/.git
+  705  ls ../fsharp_source/fsharp/.git
+  718  git init
+  719  history | grep "git remote"
+  720  git remote add origin ~/Public/Dropbox/git_dat/fsharp
+  721  git fetch origin
+  722  git branch -av
+  723  git checkout --track DictDesign0.5
+  724  git checkout --track -b DictDesign0.5
+  725  git branch -av
+  726  git status
+  728  git status
+  729  git branch -av
+  731  git pull
+  732  git branch--set-upstream-to=origin/DictDesign0.5 DictDesign0.5
+  733  git branch --set-upstream-to=origin/DictDesign0.5 DictDesign0.5
+  734  git branch --set-upstream-to=remotes/origin/DictDesign0.5 DictDesign0.5
+  735  git branch -av
+  736  git pull remote DictDesign0.5
+  737  git pull DictDesign0.5
+  738  git pull origin/DictDesign0.5
+  743  git remote add origin ~/Public/Dropbox/git_dat/fsharp
+  744  git init
+  745  git remote add origin ~/Public/Dropbox/git_dat/fsharp
+  746  git remote fetch DictDesign0.5
+  747  git fetch DictDesign0.5
+  748  git fetch origin/DictDesign0.5
+  749  git fetch origin
+  752  git pull origin
+  753  git pull origin/master
+  754  git pull remotes/origin/DictDesign0.5
+  755  git pull remotes/origin DictDesign0.5
+  756  git pull
+  757  git pull origin DictDesign0.5
+  758  git branch -av
+  759  git branch --set-upstream-to=origin/DictDesign0.5 master
+  760  git branch -av
+  761  git reflog
+  762  git push origin --delete DictDesign0.3
+  763  git branch -av
+  764  git commit -m"Deleted upstream branch DictDesign0.3"
+  765  git status
+  766  git branch -av
+  767  git pull
+  768  git branch -av
+  769  git log
+  770  git pull
+  771  git branch -av
+  774  git fetch
+  775  git status
+  776  git fetch
+  777  git status
+  778  git branch -av
+  798  git pull
+  817  git status
+  822  git add FSAETP/
+  823  git add FSAETP/*
+  824  git status
+  825  git branch fsaetp0.1
+  826  git reflog
+  827  git checkout fsaetp0.1
+  828  git branch -av
+  829  git commit -m"Added FSAETP files from GZ"
+  830  git status
+  831  git push origin
+  832  git status
+  833  git log
+  834  git push fsaetp0.1
+  835  git status
+  836  git push origin fsatep0.1
+  837  git branch -av
+  838  git checkout --track fsaetp0.1
+  839  git checkout --track origin/fsaetp0.1
+  841  history | grep "git remote"
+  842  git remote add origin ~/Public/Dropbox/git_dat/fsharp
+  843  git checkout --track origin/fsaetp0.1
+  844  git push -u origin fsaetp0.1
+  856  git fetch
+  857  git branch -av
+  858  git pull remotes/origin/fsaetp0.1
+  859  git pull remotes/origin/ fsaetp0.1
+  860  git pull origin fsaetp0.1
+  861  git branch -av
+  862  git config --global push.default upstream
+  863  git push
+  864  git status
+  865  git branch -av
+  866  git pull
+  867  git fetch
+  868  git fetch origin
+  869  git tags
+  870  git branch -av
+  871  git help tag
+  872  git log
+  873  git pull origin DictDesign0.7
+  874  git pull origin/DictDesign0.7
+  875  git branch -av
+  876  git fetch
+  877  git branch -av
+  878  git fetch
+  879  git fetch origin
+  880  git update
+  881  git branch -av
+  882  git fetch remotes/origin
+  883  git fetch origin
+  884  git branch -av
+  885  git pull
+  886  git pull
+  898  git pull
+  899  git branch -av
+  903  git status
+  904  git branch -av
+  905  git branch -av
+  906  git checkout origin/DictDesign0.5
+  907  git branch -av
+  908  git checkout -b fsaetp0.3
+  909  git branch -av
+  913  git status
+  916  git status
+  925  git status Source
+  926  git status
+  933  git status
+  939  git status
+  949  git status
+  953  git status
+  955  git status
+  957  git branch -av
+  958  git checkout fsaetp0.3
+  959  git status
+  962  git fetch
+  963  git branch -av
+  987  git status
+  990  git status
+  991  git commit -a -m"Creating new branch with GZ files"
+  992  git status
+  993  git push
+  994  git push --set-upstream origin fsaetp0.3
+  996  git status -av
+  997  git branch -av
+  998  git checkout fsaetp0.1
+  999  git status Georg/FSAETP
+ 1000  git push
+ 1008  git status
+ 1009  git add .
+ 1010  git status
+ 1011  git commit -a -m"Actually added the directories and files which were not in the branch I backed up to"
+ 1012  git status
+ 1013  git push
+ 1014  git status
+ 1015  git log
+ 1017  git status
+ 1018  git branch -av
+ 1025  git pull
+ 1026  git branch -av
+ 1027  git help pull
+ 1028  git checkout origin/fsaetp0.1
+ 1032  git pull
+ 1033  git pull origin fsaetp0.1
+ 1034  git pull origin fsaetp0.1
+ 1035  git log
+ 1048  git pull origin fsaetp0.1
+ 1049  git fetch
+ 1050  git fetch
+ 1051  git pull
+ 1052  git pull origin fsaetp0.1
+ 1053  git branch -av
+ 1076  git rm StreamOperations.fsproj.vspscc
+ 1077  git status
+ 1078  git log
+ 1101  more .git*
+ 1102  ls -al .git*
+ 1107  git credential-osxkeychain
+ 1113  git pull origin fsaetp0.1
+ 1114  git branch -av
+ 1121  pushd Public/Dropbox/git_dat/
+ 1125  ls fsharp/.git
+ 1146  git pull origin fsaetp0.1
+ 1147  git pull origin fsaetp0.1
+ 1148  git pull origin fsaetp0.1
+ 1153  history | grep git
+ 1154  history | grep git | grep origin
+ 1164  git status *.fil
+ 1165  git status
+ 1169  git status
+ 1172  git pull origin fsaetp0.1
+ 1173  git tags
+ 1174  git --help
+ 1175  git tag
+ 1176  git --help fetch
+ 1177  git fetch origin fsaetp0.1
+ 1178  git fetch -t origin fsaetp0.1
+ 1179  git tag
+ 1180  git --help tag
+ 1181  git tag -l Final
+ 1182  git tag -l Final*
+ 1183  git tag -n100 -l Final*
+ 1184  git gc --prune
+ 1215  cd /Users/matthew/git_mac_files/Open\ University/tutorials; clear; pwd
+ 1216  git status
+ 1217  git commit -a
+ 1218  git status
+ 1219  echo "add .png .TIFF .tif &c to .gitignore then add other files.  Oh and what about .wbd?"
+ 1230  mv *.TIFF ~/git_mac_files/Open\ University/Appraisal/
+ 1231  mv *.tif* ~/git_mac_files/Open\ University/Appraisal/
+ 1259  cd /Users/matthew/git_mac_files/GTD; clear; pwd
+ 1260  git status
+ 1262  git add ../FlowGraph/
+ 1263  git add .
+ 1264  git status
+ 1266  git add *
+ 1268  git add Documentation/implementation_guide-a4.pdf 
+ 1270  git commit -m"Many changes and additions" -a
+ 1271  git status
+ 1274  git add RCA/*
+ 1275  git stauts
+ 1276  git status
+ 1277  git add Various/*
+ 1278  git commit -a m"Various nb files"
+ 1279  git commit -a -m"Various nb files"
+ 1280  git status
+ 1281  git add Flower/*
+ 1284  git commit -a -m"Flower notebook updates"
+ 1285  git status
+ 1286  git add Open\ University/Applications
+ 1287  git add Open\ University/MST209-2013
+ 1288  git add Open\ University/M208-2012J/
+ 1289  git status
+ 1290  git add Open\ University/Appraisal/
+ 1291  git status
+ 1292  git commit -a -m"Lots of files some of which probably shouldn't be there, sorry git"
+ 1293  git status
+ 1294  git status
+ 1348  history | grep git
+ 1349  history | grep git | grep config
+ 1351  pushd git_mac_files/
+ 1353  ls .git
+ 1354  git clone https://github.com/pezipink/Last.Fi.git
+ 1356  git remote add upstream https://github.com/pezipink/Last.Fi.git
+ 1357  git fetch upstream
+ 1360  git status
+ 1362  git status
+ 1363  git commit -a
+ 1364  git status
+ 1365  git add Consultancy/Tutees
+ 1366  git add Contacts/Contacts-June-2013.*
+ 1367  git status
+ 1368  git add Contacts/funambol.csv
+ 1369  git add Open\ University/MST209-2013/Tutorials/M208_2012J_TMA07.nb 
+ 1370  git add Open\ University/MST209-2014J/
+ 1371  git commit -a -m"Added some more files and directories"
+ 1372  git status
+ 1462  history | grep git | grep bare
+ 1466  mkdir git_pi
+ 1467  pushd git_pi
+ 1468  git clone --bare . https://github.com/fairflow/Last.Fi
+ 1469  git init
+ 1470  git clone --bare . https://github.com/fairflow/Last.Fi
+ 1471  git status
+ 1475  ls .git
+ 1476  rm -rf .git
+ 1477  git init
+ 1478  git clone --bare https://github.com/fairflow/Last.Fi
+ 1480  ls Last.Fi.git/
+ 1481  ls ../git_mac/
+ 1482  ls ../git_mac/local
+ 1485  mkdir git_pi_files
+ 1486  pushd git_pi_files
+ 1487  git init
+ 1488  git remote add lastfi ~/Public/Dropbox/git_pi
+ 1489  git fetch lastfi
+ 1491  git remote remove lastfi
+ 1492  git remote add lastfi ~/Public/Dropbox/git_pi/Last.Fi.git
+ 1493  git fetch lastfi
+ 1495  ls ~/Public/Dropbox/git_pi/Last.Fi.git/
+ 1496  git status
+ 1497  git remote remove lastfi
+ 1498  git status
+ 1499  git init
+ 1500  ls .git
+ 1501  git clone ~/Public/Dropbox/git_pi/Last.Fi.git/
+ 1504  git remote add lastfi ~/Public/Dropbox/git_pi/Last.Fi.git
+ 1505  git fetch lastfi
+ 1506  git status
+ 1507  git merge
+ 1508  git merge lastfi
+ 1509  git merge lastfi/master
+ 1511  git status
+ 1513  git init
+ 1514  git status
+ 1515  git log
+ 1516  rm -rf .git
+ 1517  git init
+ 1518  git status
+ 1523  git status
+ 1528  rm -rf .git
+ 1530  git init
+ 1531  git fetch lastfi
+ 1532  git remove remote lastfi
+ 1533  git remote remove lastfi
+ 1534  git remote add lastfi ~/Public/Dropbox/git_pi/Last.Fi.git/
+ 1535  git fetch lastfi
+ 1539  git merge master
+ 1540  git merge lastfi
+ 1541  git merge lastfi/master
+ 1543  history | grep git > gitCommands.txt
